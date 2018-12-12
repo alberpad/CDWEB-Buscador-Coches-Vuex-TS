@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <vuex-search-form></vuex-search-form>
+    <vuex-search-list></vuex-search-list>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import HelloWorld from './components/HelloWorld.vue';
+import VuexSearchList from './components/VuexSearchList/VuexSearchListComponent';
+import VuexSearchForm from './components/VuexSearchForm/VuexSearchFormComponent';
 
 @Component({
   components: {
-    HelloWorld,
+    VuexSearchList,
+    VuexSearchForm,
   },
 })
 export default class App extends Vue {}
