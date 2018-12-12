@@ -2,7 +2,7 @@
 
 ## Proyeco del curso de Vue y Vuex impartido en:
 
-[a link](www.cursosdesarrolloweb.es)
+[www.cursodesarrolloweb.es](www.cursosdesarrolloweb.es)
 
 ## Project setup
 
